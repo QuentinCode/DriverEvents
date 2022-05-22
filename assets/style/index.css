@@ -290,10 +290,126 @@ body {
 .apropos-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 25% 50% 25%;
-      grid-template-columns: 25% 50% 25%;
+  -ms-grid-columns: 30% 40% 30%;
+      grid-template-columns: 30% 40% 30%;
   text-align: center;
   background: #292a2c;
   border-radius: 40px;
+  padding: 40px;
+  margin: 30px 0 50px 0;
+}
+
+.apropos-container .apropos-img-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.apropos-container .apropos-img-left img {
+  width: 100%;
+}
+
+.apropos-container h3 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.apropos-container .apropos-img-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.apropos-container .apropos-img-right img {
+  width: 355px;
+  border-radius: 1000px;
+  height: 355px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid #fffefc;
+}
+
+footer {
+  text-align: center;
+  margin: 100px 0 30px 0;
+}
+
+footer img {
+  width: 5%;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+  padding-bottom: 10px;
+}
+
+footer h4 a {
+  color: #d9d9d9;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+footer h4 a:hover {
+  color: #6262f0;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer h4:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer #adress {
+  font-size: 0.8rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+
+footer #plan {
+  color: #d9d9d9;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+}
+
+footer #plan:hover {
+  color: #6262f0;
+}
+
+footer #security {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-left: -28px;
+}
+
+footer #security a {
+  color: #d9d9d9;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+footer #security a:hover {
+  color: #6262f0;
+  border-bottom: 1px solid #6262f0;
 }
 /*# sourceMappingURL=index.css.map */
