@@ -1,0 +1,14 @@
+.pub {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 150px;
+
+    .pub-left {
+        background-color: $color2;
+        border-radius: 40px;
+    }
+    .pub-right {
+        background-color: $color2;
+        border-radius: 40px;
+    }
+}

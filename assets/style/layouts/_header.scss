@@ -57,14 +57,20 @@
         text-align: center;
 
         .header-img-up-container {
-            background-color: $color2;
             img {
                 width: 50%;
+                margin-right: -110px;
+                border: 10px solid $color2;
+                border-radius: 40px;
             }
         }
         .header-img-down {
             img {
-                width: 70%;
+                margin-top: -7px;
+                margin-right: -110px;
+                width: 80%;
+                border: 10px solid $color2;
+                border-radius: 40px;
             }
         }
     }
