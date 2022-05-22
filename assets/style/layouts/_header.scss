@@ -19,13 +19,14 @@
             padding: 10px 15px;
             border: 1px solid $color4;
             border-radius: 40px;
-            margin-right: 50px;   
+            margin-right: 50px; 
+            transition: .2s ease;  
             a {
                 color: $color1;
                 font-size: 1.5rem;
             }
             &:hover {
-                background-color: $color3;
+                background-color: $color5;
             }
         }
         .header-btn2 {
@@ -39,8 +40,9 @@
             a {
                 color: $color4;
                 font-size: 1.3rem;
+                transition: .2s ease;
                 &:hover {
-                    color: $color3;
+                    color: $color5;
                 }
             }
         }
